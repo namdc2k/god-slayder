@@ -1,0 +1,1362 @@
+fileFormatVersion: 2
+guid: e265bb3720a1de347881d1314d576f28
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gp_arrow
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 382
+        width: 25
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b0d689460a79e48b89150956d33a99
+      internalID: -1838495652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_enemy_hp_bar_fill
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 49
+        width: 135
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 36, y: 9, z: 36, w: 9}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32354748a3abf8a4f8a12f297e506f97
+      internalID: 1387841209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_enemy_hp_bar_frame
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 35
+        width: 135
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 36, y: 9, z: 36, w: 9}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb0ee70fe9ce0844a1f10ef63cffcd2
+      internalID: 1369187706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_joystick_handle
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 434
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235486859c8bb914fa57ebe55e497de9
+      internalID: 797518669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_lock_target
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 795
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3156a5ec417a424f92680bf6c235c70
+      internalID: 234352799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_warring_circle
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 78
+        width: 210
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de68809cb4a143a47943efd4d9f0d9cd
+      internalID: -1258200588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_enemy_hp_amor_bar_fill
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 35
+        width: 135
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 36, y: 9, z: 36, w: 9}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9171a84cafdab2b438e7213c80b096fc
+      internalID: 858950264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_enemy_hp_bar_fill2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 135
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 36, y: 9, z: 36, w: 9}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dfb30a0b5cc76469c808fb8e1c7f56
+      internalID: -469138353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_attack2
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 256
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b7343e3760f9c46bb26616c1c3168d
+      internalID: -1994581337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_dash
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 264
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f50b7e9b8be4b4fa65f9bf5a4901b3
+      internalID: -545633466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_skill2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 294
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f31f861f5ac3545a29bc1fe1d7b12a
+      internalID: -388278807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_joystick_bg2
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 510
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd14128522eff14c894ac1d2cfb8722
+      internalID: -1276666340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_attack2_press
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 533
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d155b60e1862e64ebcdfdd462580f10
+      internalID: 434897050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_dash_press
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 374
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef49ab8e15d6b2946ad77c5aaf77349b
+      internalID: 1774911731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_skill2_press
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 480
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a138c38188093349a558d46e27193b2
+      internalID: -157114539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_player_hp_bar
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 787
+        width: 646
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5796f56afd9d80a40b70cc39c4404d83
+      internalID: -192282270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_player_hp_ground
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 841
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 7, z: 12, w: 7}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe02cff0b1159f459635630ff71c0dc
+      internalID: -2050483043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_player_hp_mask
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 343
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 7, z: 12, w: 7}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcbfc4bcf153904a907ddeea9e18a2e
+      internalID: -462411400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_player_hp_bar_fill
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 18
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 7, z: 12, w: 7}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccea99c0b5f326498f642f8734bdb7f
+      internalID: -33999278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_attack2_bow
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 533
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a291a39c3f4d448b3ac5b0a530514f
+      internalID: -498119942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_attack2_bow_press
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5851b0b5218a3394daf17efdada55ab9
+      internalID: -1952975224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_skill2_bow
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 618
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13ac776ef2cdc94084666a34b2f6ec6
+      internalID: -1784876223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_skill2_bow_press
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 734
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ea1690cfc22cb43b976b7a07b72045
+      internalID: -1077728480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_aim_line
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 355
+        height: 804
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fb19cfb7cfe7f47a693d11f529913d
+      internalID: 707897401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_board
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 962
+        width: 1333
+        height: 940
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e77eff5114a4044907c727e05c7366
+      internalID: 1610278120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_hammer_frame
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 619
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f28974ba9439a429a976be76e61913
+      internalID: 1000676779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_item_bg
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 133
+        width: 173
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e65e42b0da18f14881478ead7bc0439
+      internalID: -734000262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_item_frame
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 124
+        width: 192
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038658d5f0adb2b4ea62ccb57fb64e26
+      internalID: -1909704242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_btn_bag
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 336
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12be8e404d03c348ae43e68efda5940
+      internalID: 2019856016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_board
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 988
+        width: 496
+        height: 914
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 186, y: 344, z: 148, w: 229}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af50a2577264d049ada7873b02f3783
+      internalID: 1394704314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_bow_icon
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 130
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2071027446a9c0344bc83e863a893df0
+      internalID: 384510985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_bow_special_icon
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 3
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f63f5ee3b5bc484d8598805cd38f1bb
+      internalID: -407851948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_dagger_icon
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 9
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031ff46f50c50ab429b87980e8d5bde5
+      internalID: -1433473399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_dagger_special_icon
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 130
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b03f858587c8246967ba0fe69772cf
+      internalID: 980389883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_dash_icon
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 143
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b7b56172c8ce744aafff50bc4cff32
+      internalID: 1041033493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_icon
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 7
+        width: 117
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298172347202134448c0f3d25773faca
+      internalID: 503326716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_icon4
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 9
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d69be6cb96e71b4ebe1deb19e6106ac
+      internalID: -1859500274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_icon5
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 22
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f05b23ba5e10c40b935e50aab1a340
+      internalID: 179313250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_icon6
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 6
+        width: 117
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d27da6d3f19844f9c97cb36f241075
+      internalID: -638096456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_skill_tree_line
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 109
+        width: 48
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c109b0c8e686b479a1972514958258
+      internalID: -149707461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_duo_frame
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 865
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2657c9395d613d0409c05d08f204e0b0
+      internalID: -1864512392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_epic_frame
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 742
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c98c20c09f89654aaa60728cc00ad7a
+      internalID: -565699581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_legend_frame
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 373
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7ed08b59b907a4f970a3cfac85323a
+      internalID: -633278136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_level_frame
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 20
+        width: 157
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 39, y: 25, z: 39, w: 25}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0717b77e666921e459390f07e3cf04ee
+      internalID: 1998541937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_normal_frame
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 250
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2713c61659b707842a55b709cd34db44
+      internalID: -1464792479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_rare_frame
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 127
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1075780685997488a38dc4d4fe298f
+      internalID: 1583719558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_selected_frame
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 251
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88f922b81960384cb10ce77e49ab553
+      internalID: -1157663479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_bag_hammer_legend_frame
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 496
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b443af85d0b19a4baf9e5f84477db82
+      internalID: -1710286845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_boss_hp_bar
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 872
+        width: 1368
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91123ba9b68d915458f07f261d1c6387
+      internalID: -1723156890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_boss_hp_bar_fill
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 231
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 7, z: 5, w: 7}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2f64d284b065645a52772c20591c90
+      internalID: 1514631751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_boss_hp_ground
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 349
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 7, z: 5, w: 7}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b20bdc414d49104a871eeae95f4649b
+      internalID: -1681219797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_boss_hp_mask
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 349
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 7, z: 5, w: 7}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce555185a49f0e4894d9e3aa27e7238
+      internalID: -61394698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gp_warring_circle_bg
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 317
+        width: 210
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5d6cba753bac849b87d480fd2f196b
+      internalID: -1144387368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gp_aim_line: 707897401
+      gp_arrow: -1838495652
+      gp_bag_board: 1610278120
+      gp_bag_duo_frame: -1864512392
+      gp_bag_epic_frame: -565699581
+      gp_bag_hammer_frame: 1000676779
+      gp_bag_hammer_legend_frame: -1710286845
+      gp_bag_item_bg: -734000262
+      gp_bag_item_frame: -1909704242
+      gp_bag_legend_frame: -633278136
+      gp_bag_level_frame: 1998541937
+      gp_bag_normal_frame: -1464792479
+      gp_bag_rare_frame: 1583719558
+      gp_bag_selected_frame: -1157663479
+      gp_boss_hp_bar: -1723156890
+      gp_boss_hp_bar_fill: 1514631751
+      gp_boss_hp_ground: -1681219797
+      gp_boss_hp_mask: -61394698
+      gp_btn_attack2: -1994581337
+      gp_btn_attack2_bow: -498119942
+      gp_btn_attack2_bow_press: -1952975224
+      gp_btn_attack2_press: 434897050
+      gp_btn_bag: 2019856016
+      gp_btn_dash: -545633466
+      gp_btn_dash_press: 1774911731
+      gp_btn_skill2: -388278807
+      gp_btn_skill2_bow: -1784876223
+      gp_btn_skill2_bow_press: -1077728480
+      gp_btn_skill2_press: -157114539
+      gp_enemy_hp_amor_bar_fill: 858950264
+      gp_enemy_hp_bar_fill: 1387841209
+      gp_enemy_hp_bar_fill2: -469138353
+      gp_enemy_hp_bar_frame: 1369187706
+      gp_joystick_bg2: -1276666340
+      gp_joystick_handle: 797518669
+      gp_lock_target: 234352799
+      gp_player_hp_bar: -192282270
+      gp_player_hp_bar_fill: -33999278
+      gp_player_hp_ground: -2050483043
+      gp_player_hp_mask: -462411400
+      gp_skill_board: 1394704314
+      gp_skill_tree_bow_icon: 384510985
+      gp_skill_tree_bow_special_icon: -407851948
+      gp_skill_tree_dagger_icon: -1433473399
+      gp_skill_tree_dagger_special_icon: 980389883
+      gp_skill_tree_dash_icon: 1041033493
+      gp_skill_tree_icon: 503326716
+      gp_skill_tree_icon4: -1859500274
+      gp_skill_tree_icon5: 179313250
+      gp_skill_tree_icon6: -638096456
+      gp_skill_tree_line: -149707461
+      gp_warring_circle: -1258200588
+      gp_warring_circle_bg: -1144387368
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
