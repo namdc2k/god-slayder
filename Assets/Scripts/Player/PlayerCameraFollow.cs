@@ -19,6 +19,7 @@ namespace Player{
             if (!transposer) {
                 enabled = false;
             }
+            ApplyOffsetAndLook();
         }
 
         private void LateUpdate() {

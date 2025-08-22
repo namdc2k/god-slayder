@@ -1,6 +1,7 @@
 using System;
 using Observer;
 using UnityEngine;
+using R3;
 
 namespace Player{
     public enum PlayerAnimationClip{
@@ -15,8 +16,8 @@ namespace Player{
             animator = GetComponent<Animator>();
         }
 
-        private void OnEnable() {
-            GameEvent.OnChangeAnimationClip += OnChangeAnimationClip;
+        private void Start() {
+            GameEvent.OnChangeAnimationClip.Subscribe(_ => OnChangeAnimationClip(_.Item1, _.Item2)).AddTo(this);
         }
 
         private void OnChangeAnimationClip(float speed, PlayerAnimationClip clip) {
@@ -25,7 +26,12 @@ namespace Player{
                 animator.SetTrigger(id);
                 return;
             }
+
             animator.SetFloat("Speed", speed);
+        }
+
+        private void EndAction() {
+            Debug.Log("Ending action");
         }
     }
 }

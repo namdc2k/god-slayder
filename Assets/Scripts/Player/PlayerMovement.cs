@@ -2,6 +2,7 @@ using System;
 using Core;
 using Observer;
 using UnityEngine;
+using R3;
 
 namespace Player{
     public class PlayerMovement : MonoBehaviour, IMoveable{
@@ -16,7 +17,15 @@ namespace Player{
             _rigidbody = GetComponent<Rigidbody>();
         }
 
-        void Start() {
+        private void Start() {
+            GameEvent.OnChangeInputControl.Subscribe(_ => SetInputControl(_.Item1, _.Item2)).AddTo(this);
+        }
+
+        private void Update() {
+#if UNITY_EDITOR
+            _horizontal = Input.GetAxisRaw("Horizontal");
+            _vertical = Input.GetAxisRaw("Vertical");
+#endif
         }
 
         private void FixedUpdate() {
@@ -26,17 +35,16 @@ namespace Player{
             Rotate(_inputVector, Time.fixedDeltaTime);
         }
 
-        private void OnEnable() {
-            GameEvent.OnChangeInputControl += SetInputControl;
-        }
 
         private void SetInputControl(float horizontal, float vertical) {
+#if !UNITY_EDITOR
             _horizontal = horizontal;
             _vertical = vertical;
+#endif
         }
 
         public void Move(Vector3 dir, float duration) {
-            GameEvent.OnChangeAnimationClip?.Invoke(dir.magnitude, PlayerAnimationClip.Running);
+            GameEvent.OnChangeAnimationClip?.OnNext((dir.magnitude, PlayerAnimationClip.Running));
             Vector3 nextVec = dir.normalized * moveSpeed * duration;
             _rigidbody.MovePosition(_rigidbody.position + nextVec);
         }
